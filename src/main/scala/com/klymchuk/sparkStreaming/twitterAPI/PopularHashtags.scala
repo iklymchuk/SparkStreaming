@@ -1,12 +1,9 @@
-package com.klymchuk.sparkStreaming
+package com.klymchuk.sparkStreaming.twitterAPI
 
 import java.io.InputStream
 
-import org.apache.spark._
-import org.apache.spark.SparkContext._
 import org.apache.spark.streaming._
 import org.apache.spark.streaming.twitter._
-import org.apache.spark.streaming.StreamingContext._
 
 /**
   * Created by iklymchuk on 2/3/17.

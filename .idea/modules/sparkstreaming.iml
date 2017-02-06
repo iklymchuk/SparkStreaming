@@ -25,6 +25,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: antlr:antlr:2.7.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.kafka:kafka_2.11:0.8.2.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.bahir:spark-streaming-twitter_2.11:2.0.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-stream:4.0.4:jar" level="project" />
     <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-core:4.0.4:jar" level="project" />
@@ -181,7 +184,6 @@
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.8:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scalap:2.11.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.6:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scalatest:scalatest_2.11:2.2.6:jar" level="project" />
     <orderEntry type="library" name="SBT: org.slf4j:jcl-over-slf4j:1.7.16:jar" level="project" />
@@ -207,5 +209,8 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="SBT: com.101tec:zkclient:0.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.yammer.metrics:metrics-core:2.2.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.kafka:kafka-clients:0.8.2.1:jar" level="project" />
   </component>
 </module>
